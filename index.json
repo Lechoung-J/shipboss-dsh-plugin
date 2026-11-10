@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Shipboss",
+    "zh": "SHIPBOSS"
+  },
+  "description": {
+    "en": "Delegated build protocol for DSH: you are the boss, the agent is your PM.",
+    "zh": "把实施交给外部编码 agent，本会话只做需求、排期与验收。装上即得 /shipboss。"
+  },
+  "metadata": {
+    "categories": {
+      "workflow": {
+        "title": {
+          "en": "Workflow",
+          "zh": "工作流"
+        }
+      },
+      "skills": {
+        "title": {
+          "en": "Skills",
+          "zh": "技能"
+        }
+      }
+    },
+    "labels": {
+      "delegation": {
+        "title": {
+          "en": "Delegation",
+          "zh": "派发"
+        }
+      },
+      "verification": {
+        "title": {
+          "en": "Verification",
+          "zh": "验收"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "shipboss-dsh-plugin",
+      "title": {
+        "en": "SHIPBOSS",
+        "zh": "SHIPBOSS"
+      },
+      "description": {
+        "en": "Install the /shipboss skill: delegate to coding agents and verify independently.",
+        "zh": "装上 /shipboss 技能：把实施派给编码 agent，并独立验收。"
+      },
+      "author": "Lechoung-J",
+      "homepage": "https://github.com/Lechoung-J/shipboss-dsh-plugin",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/Lechoung-J/shipboss-dsh-plugin.git"
+      },
+      "metadata": {
+        "category": "workflow",
+        "keywords": [
+          "dsh-plugin",
+          "skill",
+          "delegation",
+          "verification",
+          "shipboss"
+        ],
+        "labels": [
+          "delegation",
+          "verification"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794330310,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Lechoung-J/shipboss-dsh-plugin.git",
+            "commit": "4eba46442ec7fdf83f0014b68024bab60233a5d2"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}
