@@ -1,0 +1,8 @@
+# shipboss-dsh-plugin bundle patch（dsh.bundle manifest 要求的加载配置）
+#
+# 作为 bundle 安装时自动挂载；config 全部走默认值（enabled: true /
+# skillRoot: null / onConflict: skip）。真装请用 install.sh：它会往 profile
+# 的 cordis.patch.yml 里写带 config 的 managed block，便于卸载时精确移除。
+- insert:
+    - id: shipboss
+      name: shipboss-dsh-plugin

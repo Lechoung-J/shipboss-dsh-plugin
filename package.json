@@ -1,0 +1,36 @@
+{
+  "name": "shipboss-dsh-plugin",
+  "version": "0.1.0",
+  "description": "把 SHIPBOSS 派发与验收协议作为 DSH 技能装上：模型可自行发现，人可用 /shipboss 起手。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "shipboss",
+    "skill"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lechoung-J/shipboss-dsh-plugin.git"
+  }
+}

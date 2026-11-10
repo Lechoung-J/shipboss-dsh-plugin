@@ -1,0 +1,5 @@
+source=~/.dsh/skills/delegated-build
+copied_at=2026-11-10T16:30:21Z
+sha256=04420e2840bf3ec923b6a9ce5df37db5b2d5126145075657ec945589b3e6c447
+name_rewrite=delegated-build->shipboss (frontmatter name only)
+excluded=scribe.md,scripts/
